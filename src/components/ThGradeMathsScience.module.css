@@ -1,0 +1,107 @@
+.coffees01Icon {
+  width: 501px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.supportiveFaculty {
+  margin: 0;
+  height: 51px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.personalizedCounsellingSessi {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 0 var(--padding-21xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aspireArcValues,
+.theFacultyAt {
+  margin: 0;
+}
+.aspireArcValuesContainer {
+  align-self: stretch;
+  height: 200px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-arbutus-slab);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.thGradeComputerSciencePyth {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+  max-width: 100%;
+}
+.takeYourSkillsToTheNextL,
+.thGradeMathsScience {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.takeYourSkillsToTheNextL {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-3xl);
+  min-width: 375px;
+}
+.thGradeMathsScience {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-12xs);
+  gap: var(--gap-45xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-neuton);
+}
+@media screen and (max-width: 1200px) {
+  .thGradeMathsScience {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .coffees01Icon {
+    flex: 1;
+  }
+  .supportiveFaculty {
+    font-size: var(--font-size-13xl);
+  }
+  .thGradeMathsScience {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .thGradeComputerSciencePyth {
+    gap: var(--gap-lg);
+  }
+  .takeYourSkillsToTheNextL {
+    min-width: 100%;
+  }
+  .thGradeMathsScience {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .supportiveFaculty {
+    font-size: var(--font-size-5xl);
+  }
+  .aspireArcValuesContainer {
+    font-size: var(--font-size-base);
+  }
+}

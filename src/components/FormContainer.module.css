@@ -1,0 +1,264 @@
+.whyAspireArc1 {
+  position: relative;
+  font-weight: 800;
+  text-shadow: 1px 0 0#917575, 0 1px 0#917575, -1px 0 0#917575, 0-1px 0#917575;
+}
+.whyAspireArcWrapper {
+  border-top: 1px solid var(--color-black);
+  border-bottom: 1px solid var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-2xs) var(--padding-7xs)
+    var(--padding-xs);
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-6xs) 0;
+  color: var(--color-gray-400);
+}
+.supportiveFaculty1 {
+  height: 30px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+}
+.supportiveFaculty {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  font-family: var(--font-neuton);
+}
+.coffees01Icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.aspireArcValues {
+  width: 255px;
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-arbutus-slab);
+  text-align: justify;
+  display: inline-block;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  font-family: var(--font-montserrat-alternates);
+}
+.interactiveLearning {
+  height: 30px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+}
+.coffees01Icon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.machineLevelsUp {
+  align-self: stretch;
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.classesAtAspire,
+.theEmphasisOn {
+  margin: 0;
+}
+.classesAtAspireContainer {
+  height: 124px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.googleLinkedinGroupGitHub {
+  align-self: stretch;
+  height: 144px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-6xs);
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-arbutus-slab);
+}
+.flexibleSchedules {
+  height: 30px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+}
+.locationInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lgi);
+}
+.coffees01Icon2 {
+  height: 196.7px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.feedbackForm {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-7xl);
+}
+.recognizingTheChallenges {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  height: 128px;
+}
+.googleLinkedinGroupGitHub1 {
+  align-self: stretch;
+  height: 161px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-6xs);
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-arbutus-slab);
+}
+.realWorldApplications {
+  height: 30px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+}
+.coffees01Icon3 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.aspireArcBelieves {
+  width: 255px;
+  height: 160px;
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-arbutus-slab);
+  text-align: justify;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.googleLinkedinGroupGithub {
+  align-self: stretch;
+  height: 438px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+}
+.guidanceForThe {
+  height: 30px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+}
+.coffees01Icon4 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.followUs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  gap: var(--gap-7xs);
+}
+.aspireArcGoes {
+  width: 258px;
+  height: 144px;
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-arbutus-slab);
+  text-align: justify;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.starRating,
+.whyAspireArc {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.whyAspireArc {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-lg) var(--padding-4xl) var(--padding-46xl)
+    var(--padding-6xl);
+  gap: var(--gap-10xs);
+}
+.starRating {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-3xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-neuton);
+}
+@media screen and (max-width: 1200px) {
+  .whyAspireArc {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .whyAspireArc {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

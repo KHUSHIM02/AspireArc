@@ -1,0 +1,246 @@
+.aspire {
+  margin: 0;
+}
+.span {
+  font-size: var(--font-size-55xl);
+}
+.inspire {
+  font-size: var(--font-size-77xl);
+}
+.toInspire {
+  margin: 0;
+}
+.unleashYourBrilliance {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+}
+.theDesignThinkingContainer {
+  width: 528px;
+  height: 311px;
+  position: relative;
+  line-height: 100px;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 123%;
+}
+.headline,
+.text1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.text1 {
+  height: 295px;
+  width: 431px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.headline {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-mini) 0 0 var(--padding-lg);
+}
+.getStarted {
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+}
+.button {
+  flex: 1;
+  background-color: var(--primary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) 0 var(--padding-lgi);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.line,
+.rectangle2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle2 {
+  width: 291px;
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+.line {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+}
+.followUs {
+  height: 29px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.group,
+.group1,
+.rectangle1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.group1 {
+  width: 183px;
+  flex-direction: row;
+  padding: 0 var(--padding-9xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.group,
+.rectangle1 {
+  flex-direction: column;
+  max-width: 100%;
+}
+.rectangle1 {
+  align-self: stretch;
+  gap: var(--gap-27xl);
+}
+.group {
+  width: 449px;
+  padding: var(--padding-15xl) 0 0;
+  box-sizing: border-box;
+  min-width: 449px;
+}
+.hardWorkingCharactersPngTr {
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  border-radius: var(--br-39xl);
+  width: 496px;
+  height: 408px;
+  object-fit: cover;
+}
+.studentImteractionImage {
+  height: 450px;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  min-width: 350px;
+  max-width: 100%;
+}
+.text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.googleIcon {
+  width: 48px;
+  border-radius: var(--br-381xl);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.githubIcon,
+.googleIcon,
+.groupIcon,
+.linkedinIcon {
+  height: 48px;
+  position: relative;
+  cursor: pointer;
+}
+.linkedinIcon {
+  width: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.githubIcon,
+.groupIcon {
+  width: 47.4px;
+}
+.githubIcon {
+  width: 47.9px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rectangle,
+.star,
+.text2 {
+  display: flex;
+  align-items: flex-start;
+}
+.text2 {
+  align-self: stretch;
+  width: 290px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rectangle,
+.star {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.star {
+  width: 506px;
+  height: 49px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.rectangle {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-acme);
+}
+@media screen and (max-width: 1050px) {
+  .theDesignThinkingContainer {
+    font-size: var(--font-size-29xl);
+    line-height: 60px;
+  }
+  .group {
+    flex: 1;
+  }
+  .text {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .group {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theDesignThinkingContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 40px;
+  }
+  .followUs {
+    font-size: var(--font-size-base);
+  }
+  .rectangle1 {
+    gap: var(--gap-4xl);
+  }
+  .studentImteractionImage {
+    min-width: 100%;
+  }
+}

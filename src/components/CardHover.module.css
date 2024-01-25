@@ -1,0 +1,193 @@
+.logoIcon {
+  height: 45px;
+  width: 45px;
+  position: relative;
+}
+.aspireArc {
+  margin: 0;
+  width: 292px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+}
+.thGradeMathScience {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-wellfleet);
+}
+.home {
+  height: 22px;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.frameChild {
+  height: 24px;
+  width: 51px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.homeParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.skillsNextLevel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) var(--padding-3xs) 0;
+  color: var(--primary);
+}
+.about {
+  position: relative;
+  font-weight: 600;
+}
+.whatsAppImage {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-11xs) 0;
+  cursor: pointer;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) var(--padding-3xs) 0;
+}
+.courses,
+.designHeader {
+  display: flex;
+  align-items: center;
+}
+.courses {
+  height: 22px;
+  position: relative;
+  font-weight: 600;
+}
+.designHeader {
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-12xs);
+  cursor: pointer;
+}
+.feedbackSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) var(--padding-3xs) 0;
+}
+.location {
+  position: relative;
+  font-weight: 600;
+}
+.frameParentChild {
+  height: 21px;
+  width: 69px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  cursor: pointer;
+}
+.contacts,
+.frameParent {
+  display: flex;
+  align-items: center;
+}
+.frameParent {
+  flex-direction: row;
+  justify-content: center;
+}
+.contacts {
+  height: 22px;
+  position: relative;
+  font-weight: 600;
+}
+.frameParentItem {
+  height: 21px;
+  width: 70px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  cursor: pointer;
+}
+.contactUsButton,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.contactUsButton {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.unitedIndiaApartment {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) var(--padding-3xs) 0;
+  box-sizing: border-box;
+}
+.feedback {
+  position: relative;
+  font-weight: 600;
+}
+.headerBar {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-12xs) 0 0 var(--padding-9xs);
+  cursor: pointer;
+}
+.cardHover,
+.footer {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-3xs);
+}
+.cardHover {
+  align-self: stretch;
+  height: 51px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-mini);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
